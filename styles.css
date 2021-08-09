@@ -1,0 +1,215 @@
+body
+{
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+}
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 100%;
+}
+.container2 {
+  position: relative;
+  text-align: center;
+  background-color: #141E61;
+  height: 100%;
+  border-radius: 20px;
+  animation: transitionIn 0.75s;
+}
+.img1
+{
+padding: 50px 20px 40px;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+border-bottom-left-radius: 20px;
+}
+
+.heading {
+  position: absolute;
+  top: 40px;
+  left: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 35px;
+  text-align:  center;
+  color: #001E6C;
+  text-shadow: 2px #737373;
+   letter-spacing: 3px;
+}
+.ellipse1
+{
+  position: absolute;
+width: 368px;
+height: 368px;
+left: 22px;
+top: 16px;
+border-radius: 50%;
+background: rgb(131,58,180);
+background: linear-gradient(150deg, rgba(131,58,180,1) 7%, rgba(253,29,29,1) 55%, rgba(252,176,69,1) 100%);
+}
+.ellipse2
+{
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  left: 15px;
+  top: 10px;
+ border-radius: 50%;
+ background: rgb(2,0,36);
+ background: linear-gradient(155deg, rgba(2,0,36,1) 0%, rgba(9,16,121,1) 17%, rgba(0,212,255,1) 100%);
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+.rect1
+{
+  position: absolute;
+width: 368px;
+height: 100%;
+left: 1000px;
+top: 20px;
+border-top-left-radius: 50px;
+border-bottom-left-radius: 50px;
+background: rgb(2,0,36);
+background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,16,121,1) 17%, rgba(0,212,255,1) 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+   text-align: center;
+      box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+
+}
+.rect2
+{
+position: relative;
+width: 350px;
+height: 100px;
+left: 890px;
+bottom: 150px;
+border-radius: 20px;
+background-color: #141E61;
+  letter-spacing: 5px;
+   align-items:center;
+     font-family: 'Trebuchet MS', sans-serif;
+
+ }
+
+.rect1-content
+{
+  padding-top:  100px;
+  font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rect2-content
+{
+  padding:  15px;
+}
+a:link, a:visited {
+
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ellipse3
+{
+  position: absolute;
+  width: 660px;
+  height: 660px;
+  left:720px;
+  top:40px;
+  padding: 10px;
+ border-radius: 50%;
+ background-color: white;
+ background: rgb(2,0,36);
+ background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,16,121,1) 17%, rgba(0,212,255,1) 100%);
+}
+.ellipse3-content
+{
+  font-size: 40px;
+  color: white;
+  padding: 125px;
+    font-family: 'Trebuchet MS', sans-serif;
+
+}
+.rect3
+{
+position: relative;
+width: 650px;
+height: 650px;
+left: 40px;
+top: 40px;
+border-top-left-radius: 100px;
+border-bottom-right-radius: 80px;
+background-color: white;
+   align-items:center;
+
+ }
+ .rect3-content
+ {
+   padding: 65px;
+ }
+ .img2
+ {
+   border-radius: 50%;
+ }
+.foot
+{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+border-radius: 30px;
+text-align: center;
+padding: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+.title {
+  background-color: #141E61;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.active, .title:hover {
+  background-color: black;
+}
+
+.title:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+   font-family: 'Trebuchet MS', sans-serif;
+   color: black;
+   border-radius: 20px;
+}
+.h22
+{
+font-family: 'Trebuchet MS', sans-serif;
+text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+   border-radius: 20px;
+}
